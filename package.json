@@ -1,0 +1,50 @@
+{
+    "author": "oleks.chernenko@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "custom-design",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Custom Design",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_TEMPERATURE": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/background.png",
+                    "name": "IMAGE_FRAME",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "PERFECT_DOS_VGA_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/perfect-dos-vga.ttf",
+                    "name": "PERFECT_DOS_VGA_20",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "7e71caa1-fe1f-4bac-a979-8d15f7809a53",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
